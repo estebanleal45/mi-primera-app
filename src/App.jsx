@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Saludo from './components/Saludo'; // Importa el componente
 import './App.css'
+import senaLogo from '/logosena.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,14 +13,11 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="" target="_blank">
+          <img src={senaLogo} className="logo" alt="" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Mi Primera App</h1>
       <div>
     <Saludo nombre="Esteban Leal" />
   </div>
